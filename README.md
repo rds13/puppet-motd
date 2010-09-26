@@ -4,7 +4,7 @@
 
 This class distributes a ``/etc/motd`` to alert users the server is managed by Puppet   
 
-** Only tested on CentOS/RHEL5.  **  
+** Only tested on CentOS & Ubuntu.  **  
 
 ### Parameters:  
 	None	
