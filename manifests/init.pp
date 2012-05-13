@@ -1,7 +1,5 @@
 ##############################################################
 # @filename : init.pp
-# @created : 12 Feb 2010 09:05:47 +1100
-# @last changed: Sat 04 Jun 2011 16:32:39 EST
 # @author : Mick Pollard <aussielunix@gmail.com>
 ##############################################################
 #
@@ -19,7 +17,7 @@
 #	None
 #
 class motd {
-  file { "/etc/motd" :
+  file { "/etc/motd.tail" :
     mode    => 444,
     content => template("motd/motd.erb")
   }
